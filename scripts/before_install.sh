@@ -6,7 +6,7 @@
 #nvm install node
 
 #create our working directory if it doesnt exist
-DIR="/home/ubuntu/fyxt-dev-ui"
+DIR="/home/ubuntu/angular"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
