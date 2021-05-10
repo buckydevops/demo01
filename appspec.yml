@@ -3,24 +3,16 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/angular
-    owner: ubuntu
-    mode: 777
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
-      runas: ubuntu
-      owner: ubuntu
-      mode: 777
+      runas: root
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: ubuntu
-      owner: ubuntu
-      mode: 777
+      runas: root
   ApplicationStart:
     - location: scripts/application_start.sh
       timeout: 300
-      runas: ubuntu
-      owner: ubuntu
-      mode: 777
+      runas: root
