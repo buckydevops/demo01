@@ -3,5 +3,5 @@
 ##echo "Stopping any existing node servers"
 #pkill node
 # kill $(ps aux | grep '[n]ginx' | awk '{print $2}')
-#/etc/init.d/nginx stop
+/etc/init.d/nginx stop
 
