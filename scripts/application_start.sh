@@ -9,7 +9,8 @@ cd /home/ubuntu/angular
 #Removing existing contents
 sudo rm -rf *
 
-# git clone https://github.com/buckydevops/demo01.git
+#Clone the repository
+git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
 systemctl start nginx.service > /var/log/nginx/access.log 2> /var/log/nginx/error.log< /dev/null &
