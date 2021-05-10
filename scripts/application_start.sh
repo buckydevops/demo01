@@ -9,11 +9,13 @@ cd /home/ubuntu/angular
 #Removing existing contents
 #sudo rm -rf *
 
+
 #Clone the repository
 #git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
-/etc/init.d/nginx restart
+service nginx stop
+service nginx start
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
