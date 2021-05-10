@@ -7,10 +7,10 @@ sudo chmod -R 777 /home/ubuntu/angular
 cd /home/ubuntu/angular
 
 #Removing existing contents
-sudo rm -rf *
+#sudo rm -rf *
 
 #Clone the repository
-git clone https://github.com/buckydevops/demo01.git
+# git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
 #/etc/init.d/nginx start > /var/log/nginx/access.log 2> /var/log/nginx/error.log< /dev/null &
