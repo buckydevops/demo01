@@ -13,7 +13,7 @@ cd /home/ubuntu/angular
 #git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
-/etc/init.d/nginx restart > /var/log/nginx/access.log 2> /var/log/nginx/error.log< /dev/null &
+/etc/init.d/nginx restart
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
