@@ -9,6 +9,9 @@ cd /home/ubuntu/fyxt-dev-ui
 #Removing existing contents
 sudo rm -rf *
 
+#Restart nginx
+systemctl nginx -s reload
+
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # loads nvm	
