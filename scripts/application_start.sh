@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ubuntu/angular
+chmod -R 777 /home/ubuntu/angular
 
 #navigate into our working directory where we have all our github files
-sudo cd /home/ubuntu/angular
+cd /home/ubuntu/angular
 
 #Removing existing contents
 #sudo rm -rf *
@@ -14,8 +14,8 @@ sudo cd /home/ubuntu/angular
 #git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
-sudo service nginx stop
-sudo service nginx start
+service nginx stop
+service nginx start
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
