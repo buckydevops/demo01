@@ -1,0 +1,2 @@
+first_name,last_name,email,mobile_number,enity_name,address1,city,state,zipcode,address_type,tenant_name,tenant_unit,total_leased_sqft,lease_agreement,lease_expiry_date,properties,assigned_workflow,assigned_abstract,lease_type,type
+Prasanna,Venkatesh,krishna.murugan+tenant@think42labs.com,9956811244,Tenant Entity,US,New York,Tamilnadu,629901,LEGAL,Prasanna,150,1000,https://s3.amazon.com,2020-12-20,1,1,1,nnn_lease,industrial

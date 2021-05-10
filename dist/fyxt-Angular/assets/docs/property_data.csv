@@ -1,0 +1,3 @@
+client_id,client_name,ownership_entity,client_address1,client_city,client_state,client_zipcode,client_country_code,client_address_type,property_type,property_name,total_square_footage,leased_square_feet,number_of_units,notes,property_manager,pma_limit,address1,city,state,zipcode,country_code,address_type
+0,Goku,Building Blocks,Vadapalani,Chennai,Tamilnadu,629901,IN,LEGAL,1,Beerus,6000,3500,10,Sample,1,450,New York,hazzle,Nut,345621,NY,PROPERTY
+0,Whiz,Tidel Park,Guindy,Chennai,Tamilnadu,629902,IN,LEGAL,2,Tidel Park,10000,5000,50,Notes,"1,2",4000,Los Angeles,LA,nut,786342,LA,PROPERTY
