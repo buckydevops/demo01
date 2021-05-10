@@ -4,7 +4,7 @@
 sudo chmod -R 777 /home/ubuntu/angular
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/angular
+sudo cd /home/ubuntu/angular
 
 #Removing existing contents
 #sudo rm -rf *
@@ -14,8 +14,8 @@ cd /home/ubuntu/angular
 #git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
-service nginx stop
-service nginx start
+sudo service nginx stop
+sudo service nginx start
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
