@@ -4,3 +4,4 @@
 #pkill node
 # kill $(ps aux | grep '[n]ginx' | awk '{print $2}')
 #/etc/init.d/nginx stop
+echo "starting the process"
