@@ -12,7 +12,7 @@ sudo rm -rf *
 # git clone https://github.com/buckydevops/demo01.git
 
 #Restart nginx
-systemctl nginx -s reload
+systemctl start nginx.service > /var/log/nginx/access.log 2> /var/log/nginx/error.log< /dev/null &
 
 #add npm and node to path
 #export NVM_DIR="$HOME/.nvm"	
