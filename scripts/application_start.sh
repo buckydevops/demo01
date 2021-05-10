@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ubuntu/fyxt-dev-ui
+sudo chmod -R 777 /home/ubuntu/angular
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/fyxt-dev-ui
+cd /home/ubuntu/angular
 
 #Removing existing contents
 sudo rm -rf *
