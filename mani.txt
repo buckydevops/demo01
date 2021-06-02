@@ -1,2 +1,7 @@
 Hi Mani
+<<<<<<< HEAD
 Hello
+=======
+
+Welcome
+>>>>>>> origin
